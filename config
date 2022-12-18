@@ -66,8 +66,7 @@ HostbasedAuthentication yes
 IgnoreRhosts no
 
 # To disable tunneled clear text passwords, change to no here!
-Match User root,f5_remoteuser,mysqlsys,mysql,admin
-  PasswordAuthentication yes
+PasswordAuthentication yes
 # F5 Note
 # Password authentication should be left on "no".  The above desription
 # is not quite correct.  "PasswordAuthentication yes" means that sshd
